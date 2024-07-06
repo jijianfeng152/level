@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>level</title>
+    <align="right">
+   level<p>
+    <style>
+        progress {
+            width: 300px;
+            height: 20px;
+        }
+    </style>
+    <script>
+        function startProgress() {
+            var progressBar = document.getElementById('progressBar');
+            var value = 0;
+            var interval = setInterval(function() {
+                value++;
+                progressBar.value = value;
+                if (value >= 100) {
+                    clearInterval(interval);
+                }
+            }, 100);
+        }
+    </script>
+</head>
+<body>
+    <progress id="progressBar" value="0" max="100"></progress>
+        <a href = "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+        Download = "test_image">
+        <button onclick="startProgress()">下载</button>
+        </a>
+        <audio src="http://music.163.com/song/media/outer/url?id=447280047.mp3" id="dd" autoplay="autoplay" controls="controls" loop="loop"></audio>
+</p>
+    <i class="fas fa-check-circle text-success"></i>
+</head>
+<body background="https://s2.loli.net/2024/06/28/pC8RAIeXqhbBWTz.jpg"
+      style="background-repeat:no-repeat
+                           background-attachment:fixed;
+                           background-size:100% 100%;">
+</body>
+</html>
+
+
+
